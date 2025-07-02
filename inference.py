@@ -3,7 +3,7 @@ from ultralytics import YOLO
 import cv2
 import numpy as np
 
-model = YOLO("path/to/yolov8.pt")  # Replace with your model path
+model = YOLO("my_model.pt")
 
 def annotate_image(image: np.ndarray) -> np.ndarray:
     results = model(image)[0]
