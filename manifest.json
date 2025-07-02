@@ -1,15 +1,15 @@
 {
   "services": {
-    "example-app": {
-      "name": "example-app",
+    "camera-detection-app": {
+      "name": "Camera Detection App",
       "type": "app",
-      "exec_cmd": "/mnt/managed_home/farm-ng-user-YOUR_USER_HERE/amiga-app-template/venv/bin/python3 /mnt/managed_home/farm-ng-user-YOUR_USER_HERE/amiga-app-template/main.py",
+      "exec_cmd": "/mnt/managed_home/farm-ng-user-henriquebrnetto/Desktop/amiga-example/venv/bin/python3 /mnt/managed_home/farm-ng-user-henriquebrnetto/Desktop/amiga-example/main.py",
       "args": [
-        "--config /mnt/managed_home/farm-ng-user-YOUR_USER_HERE/amiga-app-template/config.json", "--port 8042"
+        "--config /mnt/managed_home/farm-ng-user-henriquebrnetto/Desktop/amiga-example/config.json", "--port 8041"
       ],
       "autostart": true,
-      "app_route": "8042",
-      "display_name": "Monitor App"
+      "app_route": "8041",
+      "display_name": "Camera Detection App"
     }
   }
 }
