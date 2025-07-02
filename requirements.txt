@@ -4,3 +4,4 @@ uvicorn[standard]
 opencv-python
 numpy
 ultralytics
+kornia-rs
